@@ -1,0 +1,6 @@
+include INSTALL.tcsh
+include RELEASE_NOTES.md
+recursive-include docs *.md *.rst *.py *.css Makefile
+recursive-include docs/_build/html *
+recursive-include notebooks *.ipynb
+recursive-include examples *.py
